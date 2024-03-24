@@ -1,6 +1,14 @@
 # HR-Attrition-Dashboard
-Dive deep into employee turnover rates, identify patterns, and understand the underlying causes driving attrition within the organization.
 
-The Attrition Analytics Toolkit is a comprehensive data analysis solution tailored for Human Resources departments aiming to gain deep insights into employee attrition and satisfaction metrics. This repository hosts a robust dashboard application designed to facilitate the analysis of attrition data and satisfaction scores, empowering HR professionals to make informed decisions and implement effective retention strategies.
+This project is using the "HR-Employee Attrition.csv" Kaggle dataset containing employee satisfaction metrics and descriptive information regarding the employees. The goal of the project was to build a HR-analyics solution in Power BI. This involved some data cleaning and transformation in Power query but also some DAX calculations. The end result was a dashboard containing one page with three KPI's that showed a major impact on the attrtion rate. 
+
+The KPI's 
+ - Average Job Satisfaction
+ - Average Involvement
+ - Average Environment Satisfaction
+
+With these KPI's, I was able to calculate the difference from average (outliers) when filtering on specific departments, Roles, Gender but also wether an employee have quit or not.
+
+In the picture below, you can see the measure for all female research scientist at the company, indicating a % difference of job satisfaction of -18% compared to the rest of the company. The page, also provides the user a full list of all employees of the selection for further deep dive.
 
 <img src="/HR Attrition Dashboard page.png" alt="Description of the image">
